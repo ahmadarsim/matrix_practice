@@ -16,3 +16,10 @@ dim(a) <-c(7,7)
 
 print(a)
 attributes(a)
+
+
+x<- matrix(c(3,6,-8,8,4,7,2,1,5), ncol=3,nrow=3)
+print(x)
+dim(x)
+attributes(x)
+class(x)
